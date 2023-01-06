@@ -6,11 +6,6 @@ import java.util.Map;
 // BEGIN
 class Tag {
     private String name;
-
-    public String getName() {
-        return name;
-    }
-
     private Map<String, String> attributes;
 
     Tag(String name, Map<String, String> attributes) {
@@ -18,6 +13,9 @@ class Tag {
         this.attributes = attributes;
     }
 
+    public String getName() {
+        return name;
+    }
     @Override
     public String toString() {
         String result = "<" + this.name;
