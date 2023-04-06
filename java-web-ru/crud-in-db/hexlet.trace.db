@@ -1,0 +1,3 @@
+2023-04-06 15:52:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ARTICLES (TITLE, BODY) VALUES (ÐÐ[*]¸ÐºÐ²Ð¸Ð´Ð¸ÑÐ¾Ð²Ð°ÑÑ ÑÑÐΜÑÐºÑ!!!, ÐÐ¸ÐºÐ²Ð¸Ð´Ð¸ÑÐ¾Ð²Ð°ÑÑ ÑÑÐΜÑÐºÑ!!!)"; SQL statement:
+INSERT INTO articles (title, body) VALUES (ÐÐ¸ÐºÐ²Ð¸Ð´Ð¸ÑÐ¾Ð²Ð°ÑÑ ÑÑÐµÑÐºÑ!!!, ÐÐ¸ÐºÐ²Ð¸Ð´Ð¸ÑÐ¾Ð²Ð°ÑÑ ÑÑÐµÑÐºÑ!!!) [42000-200]
