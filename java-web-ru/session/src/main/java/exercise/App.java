@@ -1,11 +1,8 @@
 package exercise;
 
-import exercise.dto.MainPage;
 import io.javalin.Javalin;
 import exercise.controller.SessionsController;
 import exercise.util.NamedRoutes;
-
-import java.util.Collections;
 
 
 public final class App {

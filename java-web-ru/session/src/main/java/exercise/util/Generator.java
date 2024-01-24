@@ -3,7 +3,6 @@ package exercise.util;
 import java.util.List;
 import java.util.ArrayList;
 import exercise.model.User;
-import static exercise.util.Security.encrypt;
 
 public class Generator {
 

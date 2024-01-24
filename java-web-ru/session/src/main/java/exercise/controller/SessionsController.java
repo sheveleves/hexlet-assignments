@@ -1,7 +1,6 @@
 package exercise.controller;
 
 import java.util.Collections;
-import java.util.Map;
 
 import exercise.dto.MainPage;
 import exercise.dto.LoginPage;
@@ -11,7 +10,6 @@ import exercise.repository.UsersRepository;
 import exercise.util.NamedRoutes;
 import exercise.util.Security;
 import io.javalin.http.Context;
-import io.javalin.http.HttpStatus;
 
 public class SessionsController {
 
