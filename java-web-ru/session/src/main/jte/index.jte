@@ -2,7 +2,6 @@
 @import exercise.util.NamedRoutes
 @param MainPage page
 
-<!-- BEGIN -->
 @template.layout.page(
 content = @`
     <div class="mx-auto p-4 py-md-5">
@@ -17,4 +16,3 @@ content = @`
     </div>
 `
 )
-<!-- END -->
