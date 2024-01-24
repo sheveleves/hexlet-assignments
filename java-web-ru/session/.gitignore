@@ -9,3 +9,10 @@ vendor/
 dist
 .gradle/
 build/
+caches/
+.vscode/
+.project
+.settings
+jte-classes
+.classpath
+bin
